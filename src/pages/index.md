@@ -1,6 +1,9 @@
 ---
+title: Index
+description: This is the index page
 GlobalHeaderTemp: true  
 ---
+import products from './products/_index.js'
 
 <Hero slots="image, heading, text" variant="fullwidth" background="rgb(51, 51, 51)" />
 
@@ -10,4 +13,4 @@ GlobalHeaderTemp: true
 
 Explore the APIs offered by products and view documentation
 
-<ProductCardFilter />
+<ProductCardFilter products={products} />
