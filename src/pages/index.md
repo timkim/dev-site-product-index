@@ -1,6 +1,6 @@
 ---
-title: Index
-description: This is the index page
+title: APIs
+description: Start building today. Explore the APIs offered by products and view documentation.
 GlobalHeaderTemp: true  
 ---
 import products from './products/_index.js'
