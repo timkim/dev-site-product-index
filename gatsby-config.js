@@ -15,8 +15,6 @@ const fs = require('fs');
 const globalNavFilePath = require.resolve('@adobe/gatsby-theme-parliament/globalNav.json');
 const globalNav = JSON.parse(fs.readFileSync(globalNavFilePath, 'utf8'));
 
-globalNav.menus = [globalNav.menus[3]];
-
 module.exports = {
   siteMetadata: {
     globalNav,
