@@ -3,7 +3,7 @@ title: APIs
 description: Start building today. Explore the APIs offered by products and view documentation.
 GlobalHeaderTemp: true  
 ---
-import products from './products/_index.js'
+import products from '../products'
 
 <Hero slots="image, heading, text" variant="fullwidth" background="rgb(45, 131, 232)" />
 
@@ -13,4 +13,4 @@ import products from './products/_index.js'
 
 Explore the APIs offered by products and view documentation
 
-<ProductCardFilter products={products} />
+<ProductCardGrid products={products} interaction={true} />
