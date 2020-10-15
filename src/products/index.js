@@ -36,18 +36,26 @@ export default [
     products: [
       {
         name: 'Adobe Creative Cloud',
-        description: 'Extend Creative Cloud apps and integrate Creative Cloud API services.',
+        description: 'Adobe Creative Cloud APIs and SDKs enable developers to impact creative work for millions of users worldwide. Build and distribute inspiring, productivity-driving plugins and integrations—all with Adobe Creative Cloud.',
         icon: CC,
-        discover: '/apis/creativecloud',
+        discover: '/creative-cloud',
         docs: '',
         lastUpdated: '10/5/2020'
       },
       {
+        name: 'Creative Cloud Libraries',
+        description: 'With the Creative Cloud Libraries API you can connect your application to Libraries and expand the reach of your user’s creative system. This helps them work more efficiently by providing access to those creative elements inside your application and connecting your application back to the Creative Cloud products.',
+        icon: CC,
+        discover: '/creative-cloud-libraries',
+        docs: '',
+        lastUpdated: '14/11/2020'
+      },
+      {
         name: 'Adobe XD',
         description:
-          "The Adobe XD SDK enables you to build plugins that can create and manipulate content, automate design workflows, and unleash your user's creativity.",
+          "Adobe XD’s powerful API platform lets developers and users extend XD within the app, or in the cloud. Automate complex tasks, modify and generate document contents, integrate with external services, and more.",
         icon: XD,
-        discover: '/apis/creativecloud/xd',
+        discover: '/xd',
         docs: '',
         lastUpdated: '10/5/2018'
       },
@@ -60,15 +68,6 @@ export default [
         lastUpdated: '10/5/2017'
       },
       {
-        name: 'CC Storage API',
-        description:
-          "CC Storage API lets you access and modify assets stored in the Creative Cloud, the world's most popular creative platform.",
-        icon: '',
-        discover: '/apis/creativecloud/ccstorageapi',
-        docs: '',
-        lastUpdated: '10/5/2016'
-      },
-      {
         name: 'Stock',
         description: 'Give your users access to the perfect Adobe Stock asset to enhance their creative projects.',
         icon: ST,
@@ -79,9 +78,9 @@ export default [
       {
         name: 'Photoshop',
         description:
-          'Build custom extensions for unique image processing workflows, connect to web services, and more.',
+          'The creative world runs on Photoshop—and with Photoshop APIs and SDKs, developers can take it even further. Build plugins and integrations that harness the power of the world’s best image editing and graphic design software to transform creative workflows for users everywhere.',
         icon: PS,
-        discover: '/apis/creativecloud/photoshop',
+        discover: '/photoshop',
         docs: '',
         lastUpdated: '10/5/2015'
       },
@@ -184,11 +183,11 @@ export default [
     name: 'Adobe Document Cloud',
     products: [
       {
-        name: 'Adobe Document Cloud',
+        name: 'Adobe PDF Embed API',
         description:
-          'Improve the way you engage with documents. With Adobe services, you can extend applications like Adobe Acrobat Reader DC and integrate our platform into your systems and apps.',
+          'With only a few lines of JavaScript, provide an industry leading PDF viewing and collaboration experience. Easily integrate discovery and engagement data into Analytics platforms.',
         icon: DC,
-        discover: '/apis/documentcloud',
+        discover: 'apis/documentcloud/viesdk',
         docs: '',
         lastUpdated: '10/5/2020'
       },
@@ -201,19 +200,19 @@ export default [
         lastUpdated: '10/5/2019'
       },
       {
-        name: 'Acrobat Sign',
-        description: 'Create, edit, sign, and share PDFs faster and easier than ever.',
+        name: 'Adobe Sign',
+        description: 'Easily integrate e-signatures and 100% digital workflows to your organization.',
         icon: AS,
         discover: '/apis/documentcloud/sign',
         docs: '/apis/documentcloud/sign/docs',
         lastUpdated: '10/5/2018'
       },
       {
-        name: 'Acrobat Document Services API',
+        name: 'Adobe PDF Tools API',
         description:
-          'Modern cloud-based APIs to embed PDF documents in websites and manipulate PDFs in document workflows.',
+          'An easy-to-use cloud-based API that can automate creation, manipulation and transformation of PDF documents.',
         icon: '',
-        discover: '/apis/documentcloud/dcsdk',
+        discover: '/apis/documentcloud/Services',
         docs: '',
         lastUpdated: '10/5/2017'
       }
@@ -274,15 +273,6 @@ export default [
         discover: '/apis/experiencecloud/primetime',
         docs: '',
         lastUpdated: '10/5/2015'
-      },
-      {
-        name: 'Adobe Mobile SDK',
-        description:
-          'These SDKs allow you to capture native app activity (user, usage, behavior, gestures) and forward that data to Adobe collection servers for use in Analytics reporting.',
-        icon: '',
-        discover: '/apis/cloudplatform/mobile',
-        docs: '',
-        lastUpdated: '10/5/2014'
       },
       {
         name: 'Target',
